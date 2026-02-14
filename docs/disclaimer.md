@@ -1,0 +1,1 @@
+This dashboard is for educational and informational purposes only. Data may be incomplete, delayed, or inaccurate.This tool does not provide professional, legal, or financial advice. No personal data is collected or stored.
