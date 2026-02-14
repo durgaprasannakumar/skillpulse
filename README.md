@@ -4,28 +4,28 @@ SkillPulse is a publicly deployable, real-time analytics dashboard that transfor
 
 Features
 1. Real-Time Job Market Feed
-    Live job postings via Adzuna Jobs API
-    Interactive refresh capability
-    Optional auto-refresh with caching safeguards
+    i. Live job postings via Adzuna Jobs API
+    ii. Interactive refresh capability
+    iii. Optional auto-refresh with caching safeguards
 2. Skill Intelligence Engine
-    Keyword-based technical skill extraction
-    Role classification (Product Manager, Data Scientist, ML Engineer, etc.)
-    Remote-work signal detection
-    Top skill ranking and growth analysis
+    i. Keyword-based technical skill extraction
+    ii. Role classification (Product Manager, Data Scientist, ML Engineer, etc.)
+    iii. Remote-work signal detection
+    iv. Top skill ranking and growth analysis
 
 3. Historical Trend Layer
-    SQLite-backed historical storage
-    Daily skill counts
-    Run-level metrics (jobs fetched, remote share, company counts)
-    Day-over-day change detection
+    i. SQLite-backed historical storage
+    ii. Daily skill counts
+    iii. Run-level metrics (jobs fetched, remote share, company counts)
+    iv. Day-over-day change detection
 
 4. Interactive Dashboard
-    Multi-tab UI
-    Skill distribution charts
-    Role breakdowns
-    Location insights
-    Trend visualizations
-    Raw job exploration
+    i. Multi-tab UI
+    ii. Skill distribution charts
+    iii. Role breakdowns
+    iv. Location insights
+    v. Trend visualizations
+    vi. Raw job exploration
 
 Architecture Overview
 
@@ -40,17 +40,17 @@ SQLite Historical Storage
 Streamlit Interactive Dashboard
 
 Target Audience
-    MBA students and career switchers seeking data-driven job market insights
-    Talent acquisition and workforce planning teams
-    Product and data professionals tracking emerging skill trends
-    Analysts studying labor market shifts in AI and tech
+1. MBA students and career switchers seeking data-driven job market insights
+2. Talent acquisition and workforce planning teams
+3. Product and data professionals tracking emerging skill trends
+4. Analysts studying labor market shifts in AI and tech
 
 Business Value
 SkillPulse demonstrates how publicly available labor data can be transformed into actionable business intelligence. Potential monetization pathways include:
-    SaaS subscription with advanced analytics
-    Skill trend alerts and weekly reports
-    Enterprise workforce planning dashboards
-    API access for HR analytics teams
+    1. SaaS subscription with advanced analytics
+    2. Skill trend alerts and weekly reports
+    3. Enterprise workforce planning dashboards
+    4. API access for HR analytics teams
 
 Use Cases
 SkillPulse is designed for:
@@ -73,8 +73,8 @@ Public deployment can be performed via Streamlit Cloud.
 
 Installation
 1. Clone repository
-   git clone <repo_url>
-   cd skillpulse
+   1. git clone <repo_url>
+   2. cd skillpulse
 2. Create virtual environment
    python -m venv venv
    source venv/bin/activate  # Mac/Linux
@@ -85,8 +85,9 @@ Installation
    Create a .env file:
        ADZUNA_APP_ID=your_adzuna_id
        ADZUNA_APP_KEY=your_adzuna_key
+       RAPIDAPI_KEY=your_rapidapi_key
        GEMINI_API_KEY=your_optional_gemini_key
-5. Run locally
+6. Run locally
    streamlit run app.py
 
 Deployment
