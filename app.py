@@ -262,7 +262,7 @@ if "run_id" not in st.session_state:
 
 st.title("SkillPulse — Real-Time Job Market & Skills Intelligence")
 st.markdown(
-    "<div class='sp-muted'>Real-time job feeds → structured skill/role signals → interactive business insights. Built for an MBA-grade deployment deliverable.</div>",
+    "<div class='sp-muted'>Real-time job feeds → structured skill/role signals → interactive business insights.</div>",
     unsafe_allow_html=True,
 )
 st.markdown("<hr class='sp-hr'/>", unsafe_allow_html=True)
